@@ -8,29 +8,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="{{ asset('css/navbar/navbar.css') }}" /> 
+
     <title>Nepal Agro Yantra</title>
 </head>
 <style>
-.navbar {
-	background-color: rgb(239, 245, 240);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 0px 10px 0px 20px;  
-}
-.dropdown-menu{
-    background-color: rgb(239, 245, 240);
 
-}
-.navbar h3 {
-	color:  #238d31;
-	font: normal 36px 'Cookie', cursive;
-	margin: 5px;
-}
-.navbar h3 span{
-	color:  #e0ac1c;
-}
 </style>
 <body>
 <nav class="navbar navbar-inverse">
@@ -83,7 +66,7 @@
   </div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light ">
-
+  <!-- <img src="{{asset('storage/img/logo.jpeg')}}" alt="Logo" > -->
   <h3>Nepal <span>Agro Yantra</span></h3>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

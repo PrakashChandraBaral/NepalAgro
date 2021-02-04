@@ -1,0 +1,20 @@
+.navbar {
+	background-color: rgb(239, 245, 240);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 0px 10px 0px 20px;  
+}
+.dropdown-menu{
+    background-color: rgb(239, 245, 240);
+
+}
+.navbar h3 {
+	color:  #238d31;
+	font: normal 36px 'Cookie', cursive;
+	margin: 5px;
+}
+.navbar h3 span{
+	color:  #e0ac1c;
+}

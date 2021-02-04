@@ -53,3 +53,6 @@ Route::get('/supports', function () {
 Route::get('/trunkey', function () {
     return view('trunkeysolutions');
 });
+Route::get('/career', function () {
+    return view('career');
+});
