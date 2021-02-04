@@ -231,7 +231,7 @@ a {
 }
 
     .team-member .member-img img {
-        max-width: 250px;
+        max-width: 90%;
         margin: 2px auto;
         border:3px #D3D3D3 solid;
         margin-left: 10px;

@@ -19,7 +19,8 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
+    
+
     </div>
     <ul class="nav navbar-nav">
       <li class="">
@@ -67,6 +68,7 @@
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light ">
   <!-- <img src="{{asset('storage/img/logo.jpeg')}}" alt="Logo" > -->
+  <a class="navbar-brand" href="/welcome"><img src="{{asset('storage/img/logo.jpeg')}}" alt="Logo" ></a>
   <h3>Nepal <span>Agro Yantra</span></h3>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
