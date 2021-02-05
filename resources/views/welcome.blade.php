@@ -39,7 +39,7 @@
 
  <div class="banner-container">
        
-	 <img class="banner-container" src="{{asset('storage/img/banner-bg.jpg')}}" >
+	 <img class="banner-container" src="{{asset('storage/img/banner1.jpg')}}" >
 	
  </div>
     </div>		
